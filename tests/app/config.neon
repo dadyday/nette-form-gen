@@ -1,0 +1,9 @@
+parameters:
+
+
+application:
+    mapping:
+        *: App\*Module\*Presenter
+
+services:
+    router: Nette\Application\Routers\SimpleRouter('Test:default')

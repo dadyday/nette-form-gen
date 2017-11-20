@@ -1,0 +1,22 @@
+{
+    "name": "hheyne/nette-form-gen",
+    "description": "Generates Nette Forms via config with binding and behavior",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "tracy/tracy": "^2.4",
+        "nette/bootstrap": "^2.4",
+        "nette/application": "^2.4",
+        "nette/robot-loader": "^2.4",
+        "latte/latte": "^2.4",
+        "nette/forms": "^2.4"
+    },
+    "require-dev": {
+        "nette/tester": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FormConfig\\": "src/"
+        }
+    }
+}

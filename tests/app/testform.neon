@@ -1,0 +1,22 @@
+form:
+    name: testform
+    label: Test
+    rows:
+        - static:
+            name: static
+            label: Statisch
+            value: "unveränderbar!"
+        - input:
+            name: input
+            label: Eingabe
+            value: "normale eingabe"
+        - number:
+            name: number
+            label: Nummer
+            value: "12.4"
+        - submit:
+            label: Ok
+        #    event: ok
+        - submit:
+            label: nope
+        #    event: nope
